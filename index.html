@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <h1>Display Date & Time:</h1>
+      <button type="button" onclick="demoDate()">
+        Click to Display date and time
+      </button>
+      <p id="demo"></p>
+
+      <h1>Light turn on or off:</h1>
+      <button type="button" onclick="lightTurnOn()">Turn On</button>
+      <img id="light" src="images/pic_bulboff.gif" />
+      <button
+        type="button"
+        onclick="lightTurnOff()"
+        class="btn btn-outline-dark"
+      >
+        Turn Off
+      </button>
+      <h1 id="dis">innerHtml:</h1>
+
+      <button type="button" onclick="displayInnerHTML()">
+        Display innerHTML
+      </button>
+      <button type="button" onclick="displayDocumentWrite()">
+        Display document.write()
+      </button>
+      <button type="button" onclick="displayAlert()">
+        Display window.alert()
+      </button>
+      <button type="button" onclick="displayConsole()">
+        Display console.log()
+      </button>
+      <button type="button" onclick="printScreen()">Print</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
