@@ -1,4 +1,4 @@
-
+// Two Sum
 //Function Expressions:
 const twoSum = (nums, target) => {
     for (let i = 0; i < nums.length; i++) {
